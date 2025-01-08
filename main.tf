@@ -1,6 +1,6 @@
-provider "azurerm" {
-  features {}
-}
+#provider "azurerm" {
+#  features {}
+#}
 
 data "azurerm_key_vault" "keyvault" {
   name                = var.keyvault 
